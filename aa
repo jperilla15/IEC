@@ -1,1 +1,8 @@
-aa
+
+bash
+# se asume que ha inicializado el repositorio de git,
+# y en este momento se encuentra en el directorio del repositorio del libro
+# crear un archivo oculto .nojekyll
+touch .nojekyll
+# agregar a git aquí porque no se mostrará en RStudio
+git add .nojekyll
