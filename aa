@@ -1,8 +1,21 @@
+title: "Econometria de Series de Tiempo"
+author: "Juan Ricardo Perilla Jiménez"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Esta es una compilación de los temas que se van a discutir en el curso de series de tiempo.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
 
-bash
-# se asume que ha inicializado el repositorio de git,
-# y en este momento se encuentra en el directorio del repositorio del libro
-# crear un archivo oculto .nojekyll
-touch .nojekyll
-# agregar a git aquí porque no se mostrará en RStudio
-git add .nojekyll
+# Introducción
+
+Esta es una compilación de temas _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+
+## Usage 
